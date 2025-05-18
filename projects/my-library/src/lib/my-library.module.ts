@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common'; // Import CommonModule for basic directives
+// import { CommonModule } from '@angular/common'; // Import CommonModule for basic directives
 import { MyLibraryComponent } from './my-library.component';
 
 @NgModule({
@@ -7,7 +7,7 @@ import { MyLibraryComponent } from './my-library.component';
     MyLibraryComponent
   ],
   imports: [
-    CommonModule // Include CommonModule if your component uses common directives like *ngIf or *ngFor
+    // CommonModule // Include CommonModule if your component uses common directives like *ngIf or *ngFor
   ],
   exports: [
     MyLibraryComponent // This is crucial - it makes your component usable in other modules
